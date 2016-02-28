@@ -1,0 +1,6 @@
+MRN3,AdmitDTS,ADTAdmitDTS,ExpectedDischargeDTS,DischargeDTS,sodium,glucose,creatinine,sys_BP,dia_BP,ave_BP,resprate,admitDT,gender,admit_src,marital,ethnic,hemoglobin,hematocrit,neutrophils,nitrogen,followup,pulse,birth,admit_type
+1287809,02-01-16,02-01-16,2/16/2016,2/16/2016,137,95,0.76,100,60,NA,18,2016,F,1,Married,Caucasian,NA,NA,NA,NA,NA,NA,NA,NA
+309251,1/28/2016,1/28/2016,2/16/2016,2/16/2016,139,87,0.84,115,79,NA,16,2016,M,1,Married,Caucasian,NA,NA,NA,NA,NA,NA,NA,NA
+78686,02-05-16,02-05-16,2/16/2016,2/16/2016,141,100,0.68,118,59,NA,17,2016,F,1,Married,Caucasian,NA,NA,NA,NA,NA,NA,NA,NA
+548790,02-10-16,02-10-16,2/15/2016,2/15/2016,141,92,0.64,105,58,NA,16,2016,M,7,Single,Multi-Racial,NA,NA,NA,NA,NA,NA,NA,NA
+567132,2/13/2016,2/13/2016,2/15/2016,2/15/2016,NA,NA,NA,120,72,NA,18,2016,F,1,Single,African American,NA,NA,NA,NA,NA,NA,NA,NA

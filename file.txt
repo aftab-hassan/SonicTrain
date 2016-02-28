@@ -1,0 +1,1 @@
+MRN3:<br>AdmitDTS:<br>ADTAdmitDTS:<br>ExpectedDischargeDTS:<br>DischargeDTS:<br>sodium:<br>glucose:<br>creatinine:<br>sys_BP:<br>dia_BP:<br>ave_BP:<br>resprate:<br>admitDT:<br>gender:<br>admit_src:<br>marital:<br>ethnic:<br>hemoglobin:<br>hematocrit:<br>neutrophils:<br>nitrogen:<br>pulse:<br>birth:<br>admit_type:<br>
