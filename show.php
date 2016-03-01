@@ -19,7 +19,8 @@
   <div class="jumbotron" style=" background-color:skyblue;">
 <?php
 
-include('script.php');
+//include('script.php');
+include('train.php');
 $my_file = 'file.txt';
 		$myfile = fopen($my_file, "r") or die("Unable to open file!");
  while($a=fread($myfile,filesize($my_file)))
