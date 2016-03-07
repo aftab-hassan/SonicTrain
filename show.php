@@ -19,13 +19,36 @@
   <div class="jumbotron" style=" background-color:skyblue;">
 <?php
 
-//include('script.php');
-include('train.php');
-$my_file = 'file.txt';
+include('populateFiles.php');
+exec("Rscript wireframe.R");
+
+//include('train.php');
+$row = 1;
+if (($uploadhandle = fopen("output.csv", "r")) !== FALSE) {
+    //while (($data = fgetcsv($uploadhandle, 1000, ",")) !== FALSE) {
+    $headers = fgetcsv($uploadhandle, 1000, ",");
+    $numbers = fgetcsv($uploadhandle, 1000, ",");
+        $count = count($headers);
+
+	for($i = 0;$i < $count; $i++)
+        {
+         //echo "<p> ".$headers[$i]. ":". $numbers[$i] ." <br /></p>\n";
+         echo "<p> ".$headers[$i]. ":". $numbers[$i];
+
+         if($i < 3)
+	  echo "%";
+  
+         echo " <br /></p>\n";
+        }
+        //$row++;
+    fclose($uploadhandle);
+}
+/*$my_file = 'output.csv';
+
 		$myfile = fopen($my_file, "r") or die("Unable to open file!");
  while($a=fread($myfile,filesize($my_file)))
  echo $a;
- fclose($myfile);
+ fclose($myfile);*/
 ?>
 </div>
 </div>

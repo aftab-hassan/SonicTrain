@@ -22,8 +22,9 @@
 
 <div class="container">
 <div class="row" >
-    <div class="col-sm-12" style="background:url('image1.jpg');color:white;"><center><h1>Sonic Train</h1></center>
-<center>A framework for dynamic CSV viewing</center></div>
+   <div class="col-sm-12" style="background:url('image1.jpg');color:white;"><center><h1>Sonic Train</h1></center>
+<!--<div class="col-sm-12" style="background:url('image1.jpg');color:white; height: 500px;">-->
+<center>This image does not show up completely...</center></div>
 </div>
 <div class="row">
   <div class="jumbotron" style=" background-color:skyblue;">
@@ -266,7 +267,7 @@ if (($handle = fopen('uploads/'.'defaultinput.csv', "r")) !== FALSE) {
         break;
         ?>
         
-        <input type="checkbox" checked name='item<?php echo $i;  ?>' value='<?php echo $data[$i].':'; 
+        <input type="checkbox" checked name='item<?php echo $i;  ?>' value='<?php echo $data[$i]; 
       /*  $handle = fopen("uploads/".$_FILES["file"]["name"], "r");
 		  $c=1;
 while($a = fgetcsv($handle, 1000, ","))
